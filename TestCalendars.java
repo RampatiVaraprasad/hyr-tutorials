@@ -67,5 +67,6 @@ public class TestCalendars {
 			driver.findElement(By.xpath("//table[@class='ui-datepicker-calendar']//td[not(contains(@class,'ui-datepicker-other-month'))]/a[text()="+targetDay+"]")).click();
 		else
 			throw new Exception("unable to select the date because of current and target dates mismatch");
+		int i = 10;
 	}
 }
