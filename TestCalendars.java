@@ -72,5 +72,7 @@ public class TestCalendars {
 		int j = 20;
 
 		String name = "Varaprasad";
+		
+		int k = 30;
 	}
 }
