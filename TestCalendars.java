@@ -68,5 +68,6 @@ public class TestCalendars {
 		else
 			throw new Exception("unable to select the date because of current and target dates mismatch");
 		int i = 10;
+		int j = 20;
 	}
 }
