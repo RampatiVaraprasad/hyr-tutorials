@@ -19,17 +19,17 @@ public class TestFrames {
 		
 		driver.get("https://www.hyrtutorials.com/p/frames-practice.html");
 		driver.findElement(By.id("name")).sendKeys("Text1"); //Main document
-		Thread.sleep(5000);
+		
 		driver.switchTo().frame("frm1"); //frame1
 			
 		Select courseName_dd = new Select(driver.findElement(By.id("course")));
 		courseName_dd.selectByVisibleText("Java");
-		Thread.sleep(5000);
+	
 		driver.switchTo().defaultContent();//Main document
 		
 		driver.switchTo().frame("frm2"); //frame2
 		driver.findElement(By.id("firstName")).sendKeys("Yadagiri");
-		Thread.sleep(5000);
+		
 		driver.switchTo().defaultContent();//Main document
 		driver.switchTo().frame("frm1"); //frame1
 		
