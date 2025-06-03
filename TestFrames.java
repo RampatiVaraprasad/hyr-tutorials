@@ -39,5 +39,6 @@ public class TestFrames {
 		driver.switchTo().defaultContent();//Main document
 		driver.findElement(By.id("name")).clear();
 		driver.findElement(By.id("name")).sendKeys("Text2");
+		int j = 10;
 	}
 }
