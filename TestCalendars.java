@@ -51,8 +51,7 @@ public class TestCalendars {
 			driver.findElement(By.className("ui-datepicker-next")).click();
 			currentDate = driver.findElement(By.className("ui-datepicker-title")).getText();
 			calendar.setTime(new SimpleDateFormat("MMM yyyy").parse(currentDate));
-			currentMonth = calendar.get(Calendar.MONTH);
-			currentYear = calendar.get(Calendar.YEAR);
+			
 		}
 
 		while(currentMonth > targetMonth || currentYear > targetYear) {
