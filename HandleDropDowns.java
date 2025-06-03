@@ -55,7 +55,7 @@ public class HandleDropDowns {
 		List<WebElement> selectedOptions = ideDropdown.getAllSelectedOptions();
 		for (WebElement selectedOption : selectedOptions) {
 			System.out.println("Selected visible text - " +selectedOption.getText());
-			int a = 10;
+			
 		}	
 	}
 }
