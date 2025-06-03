@@ -34,7 +34,7 @@ public class TestFrames {
 		driver.switchTo().frame("frm1"); //frame1
 		
 		courseName_dd.selectByVisibleText("Dot Net");
-		Thread.sleep(5000);
+		
 		
 		driver.switchTo().defaultContent();//Main document
 		driver.findElement(By.id("name")).clear();
