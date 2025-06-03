@@ -46,7 +46,7 @@ public class HandleDropDowns {
 		ideDropdown.selectByIndex(0);//Eclipse
 	
 		ideDropdown.selectByValue("ij"); //IntelliJ IDEA
-		Thread.sleep(3000);
+		
 		ideDropdown.selectByVisibleText("NetBeans"); //NetBeans
 		
 		
