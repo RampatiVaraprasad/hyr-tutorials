@@ -68,6 +68,12 @@ public class TestCalendars {
 		int i = 10;
 
 		int j = 20;
+		public void m2( ) {
+			
+			// logic-code
+			int x=90;
+			
+		}
 
 		String name = "Sivaprasad";
  
