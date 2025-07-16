@@ -79,9 +79,17 @@ public class TestCalendars {
  
 		
 		int k = 30;
+		int p = 50;
 
 
 		boolean status = false;
 		
+		
+	}
+	// jira-101 
+	public void m1(){
+		
+		int a =11;
+		int b = 22;
 	}
 }
