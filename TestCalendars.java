@@ -72,7 +72,6 @@ public class TestCalendars {
 			
 			// logic-code
 			int x=90;
-			String name = prasad;
 			
 		}
 
